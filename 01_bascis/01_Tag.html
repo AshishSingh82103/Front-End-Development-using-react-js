@@ -155,6 +155,75 @@
         </tbody>
     </table>
 
+    <!-- -----forms tag and form element in html part-1---- -->
+    <h2>Enquiry</h2>
+    <form>
+        Name:<input type="text" name="name" value="" placeholder="Please enter your name here...">
+        <br>
+        <br>
+        Address:<textarea name="address"></textarea>
+        <br>
+        <br>
+        Gender:
+        <input type="radio" value="m" name="gender">Male
+        <input type="radio" value="f" name="gender">Female
+        <input type="radio" value="o" name="gender">Other
+        <br>
+        <br>
+        <input type="submit" value="send">
+        <input type="reset">
+    </form>
+    <br>
+    <br>
+
+        <!-- -----forms tag and form element in html part-2---- -->
+        <form>
+            <fieldset>
+                <legend>Enquiry</legend>
+            Name:<input type="text" name="name" value="" placeholder="Please enter your name here...">
+            <br>
+            <br>
+            Address:<textarea name="address"></textarea>
+            <br>
+            <br>
+            Gender:
+            <input type="radio" value="m" name="gender">Male
+            <input type="radio" value="f" name="gender">Female
+            <input type="radio" value="o" name="gender">Other
+            <br>
+            <br>
+            Country<select>
+                <option>Please Select a country</option>   
+                <optgroup label="Asia">
+                <option>India</option>
+                <option>Srilanka</option>
+            </optgroup>
+            <optgroup label="Other">
+                <option>USA</option>
+                <option>Russia</option>
+            </optgroup>
+            </select>
+            <br>
+            <br>
+            Hobbies:
+            <input type="checkbox" name="hobbies[]">Singing
+            <input type="checkbox" name="hobbies[]">Dancing
+            <input type="checkbox" name="hobbies[]">Riding
+            <br>
+            <br>
+            Image:
+            <input type="file" name="Image">
+            <br>
+            <br>
+            <input type="submit" value="send">
+            <input type="reset">
+        </fieldset>
+        </form>
+
+        
+
+
+
 
 
 
