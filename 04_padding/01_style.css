@@ -1,0 +1,14 @@
+#main {
+    width: 350px;
+    height: 350px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 25px;
+    font-size: 50px;
+}
+.row-1 {
+    width: 346PX;
+    height: 346PX;
+    border: 2px solid red;
+
+}
