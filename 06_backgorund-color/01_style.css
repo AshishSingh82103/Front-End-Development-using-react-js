@@ -1,0 +1,21 @@
+/*  -----------Background- color------------ */
+.main {
+    /* width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto; */
+    /* rgba(a is stand for feding) */
+    /* background-color: rgb(202, 64, 64);
+    background-color: rgba(202, 64, 64, 0.5); */
+}
+/* --------------Box shadow---------------- */
+.bs {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: rgba(202, 64, 64, 0.5);
+    /* 
+    box-shadow: x-axis | y-axis | blur | range | color
+     */
+}
