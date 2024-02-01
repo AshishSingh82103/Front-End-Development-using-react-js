@@ -1,0 +1,9 @@
+/* Back-ground image and background repeat(CSS - properties) */
+.bg {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    font-size: 25px;
+    padding: 5px;
+    background-image: url('SamplePhoto_6.jpg');
+}
