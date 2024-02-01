@@ -5,5 +5,14 @@
     border: 2px solid black;
     font-size: 25px;
     padding: 5px;
-    background-image: url('SamplePhoto_6.jpg');
+    /* background-image: url('SamplePhoto_6.jpg'); */
+    /* background-repeat: no-repeat;     */
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background: url('SamplePhoto_6.jpg') no-repeat repeat-x; */
+    /* background-position: center; */
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background: url('SamplePhoto_6.jpg') no-repeat center cover fixed;
+
 }
