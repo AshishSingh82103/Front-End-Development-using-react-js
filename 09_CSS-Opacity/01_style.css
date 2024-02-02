@@ -74,3 +74,16 @@ h3 {
     /* float: left; */
     border: 2px solid red;
 }
+
+/* -------------------------------Resize Text-indent----------------------- */
+.main-3 {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    font-size: 30px;
+    overflow: hidden;
+    resize: both;
+    /* resize: horizontal;
+    resize: vertical; */
+    text-indent: 10%;
+}
