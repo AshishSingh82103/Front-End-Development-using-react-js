@@ -14,8 +14,33 @@
     height: 500px;
     border: 2px solid black;
     margin: auto;
+    text-align: center;
+    font-size: 100px;
     background-color: rgba(202, 64, 64, 0.5);
     /* 
     box-shadow: x-axis | y-axis | blur | range | color
      */
+    box-shadow: 10px -10px 10px 5px gray;
 }
+
+/*     <!-- --------Text-Shadow--------------- -->*/
+.ts {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 100px;
+    /* text-shadow: x-axis | y-axis | blur |  color  */ 
+    text-shadow: 0px 0px 10px  red;
+}
+
+/* ------------------------Overflow--------------------- */
+.over-flow {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    /* over-flow: hidden | scroll; */
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+
+}
+
+/* -------------CSS transform property translate function-------------------- */
