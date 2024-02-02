@@ -35,3 +35,42 @@
     bottom: 0px;
     opacity: 1;
 }
+
+/* -----------------CSS Property(Display: None, block, inline)------------------------ */
+span {
+    color: red;
+    display: block;
+}
+
+h2 {
+    color: green;
+    /* display: block; */
+    display: inline;
+}
+
+/* ----------------------CSS Property(Display:inline-block,list-item)------------------------------- */
+.main-1 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+}
+h3 {
+    /* display: inline-block; */
+    display: list-item;
+}
+
+/* ---------------------CSS Property(Display:flex)-------------------- */
+.main-2 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+}
+.main-2 div {
+    height: 50px;
+    width: 100px;
+    /* float: left; */
+    border: 2px solid red;
+}
