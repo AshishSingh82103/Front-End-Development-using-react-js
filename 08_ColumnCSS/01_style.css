@@ -1,0 +1,22 @@
+/* -----------------------Column-Count Column-fill Column-gap --------------------- */
+.main {
+    height: 50px;
+    column-count: 3;
+    column-gap: 50px;
+    column-fill: auto;
+}
+
+/* -------------------------Column-rule Column-Span Column-width------------------------- */
+.main-1 {
+    height: 100px;
+    /* column-count: 3; */
+    column-gap: 50px;
+    column-rule: 5px solid red;
+    /* column-widht work when column-count is not apply */
+    column-width: 300px;
+}
+
+.h2 {
+    /* column-span: none; */
+    column-span: all;
+}
