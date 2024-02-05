@@ -1,0 +1,8 @@
+.main {
+    background-color: yellow;
+    min-height: 200px;
+    font-size: 30px;
+    max-height: 400px;
+    overflow: scroll;
+
+}
