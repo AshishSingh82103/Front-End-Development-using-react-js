@@ -1,23 +1,27 @@
-.box-container {
+/* .box-container {
     width: 600px;
     height: 600px;
     border: 2px solid black;
     margin: auto;
     position: relative;
-}
+} */
 .box {
-    width: 200px;
+    /* width: 200px;
     height: 200px;
     background-color: red;
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; */
     /* animation-name: box;
     animation-duration: 5s; */
-    animation: box 5s;
+    /* animation: box 5s;
     animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    animation: reverse; */
 }
-@keyframes box {
+/* @keyframes box {
+    
     0% {
         top: 0px;
         left: 0px;
@@ -44,4 +48,36 @@
         background-color: red;
     }
 
+} */
+
+/* ---------liner, ease, ease-in, ease-out, ease-in-out---------- */
+.box-container {
+    width: 750px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 50px auto;
+    position: relative;
 }
+.box {
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    background: red;
+    animation: box 4s 2;
+    position: absolute;
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    animation-timing-function: ease-in-out;
+}
+@keyframes box {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 500px;
+    }
+}
+
+/* -------------Sun and cloud Amination using--------------------- */
