@@ -34,3 +34,13 @@ var y = 8;
 var z = x % y;
 console.log(z);
 document.getElementById('res').innerHTML = z;
+
+// --------------Increment-----------------
+ var x = 23;
+ x++;
+ document.getElementById('res').innerHTML = x;
+
+ // --------------De-crement-----------------
+ var x = 23;
+ x--;
+ document.getElementById('res').innerHTML = x;
