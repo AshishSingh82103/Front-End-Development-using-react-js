@@ -32,3 +32,11 @@ function cal() {
     // alert(result);
     document.getElementById('result').value = result;
 }
+
+// -------How to get data using prompt function---------------
+var result = prompt("Enter your Name!", "");
+document.write(result);
+function call() {
+   var result1 = prompt("Enter your Name!", "");
+   document.getElementById('result').innerHTML = result1;
+}
