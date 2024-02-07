@@ -40,3 +40,36 @@ function call() {
    var result1 = prompt("Enter your Name!", "");
    document.getElementById('result').innerHTML = result1;
 }
+
+// ------------------Condtional statement in java script----------------
+// if(condtion) {
+
+// }else {
+
+// }
+var age = 17;
+if (age >=18) {
+    // alert("Yes you can vote");
+    document.write("<h1>Yes you can vote 1</h1>");
+}
+ else {
+    document.write("<h1>Yes you cannot vote 1</h1>");
+ }
+
+
+//  if(condition) {
+
+//  } else if (condition) {
+
+//  } else {
+
+//  }
+var age = 17;
+if(age >= 18) {
+    document.write("<h1>Yes you can vote 2</h1>");
+} else if (age == 17) {
+    document.write("<h1>Please wait one more year<h1/>");
+} else {
+    document.write("<h1>Yes you cannot vote 2</h1>");
+
+}
