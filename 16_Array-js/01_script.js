@@ -138,7 +138,55 @@ var shop = fruits.concat(vegitables);
 var index = vegitables.indexOf("Apple");
 document.write("<h1>" + index + "<h1/>");
 
-// --------------
+// --------------Remove the last element of an array => pop();------------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var demo = fruits;
+document.getElementById('res').innerText = demo;
+function pop() {
+    demo.pop();
+    document.getElementById('res').innerText = demo;
+}
+
+// ----------------------Add a new element at the end =>push();------------------ 
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var demo = fruits;
+document.getElementById('res').innerText = demo;
+function push() {
+    // demo.push("Raddish");
+    // document.getElementById('res').innerText = demo;
+
+    // ---------from user to tkae input-------------
+    var x = prompt("Please enter a fruit", "");
+    demo.push(x);
+    document.getElementById('res').innerText = demo;
+}
+
+// -----------Pulls a copy of a portion of an array into a new array => slice();----------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var demo = fruits;
+function slice() {
+    // var x = demo.slice(2);
+    var x = demo.slice(1, 2);
+    document.getElementById('res').innerText = x;
+}
+
+// ---------------Sort element in desending order =>reverse();-------------------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var demo = fruits;
+function reverse() {
+    var x = demo.reverse();
+    document.getElementById('res').innerText = x;
+
+}
+
+// -----------Remove the first element of an array => shift();------------------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var demo = fruits;
+function shift() {
+    var x = demo.shift();
+    document.getElementById('res').innerText = x;
+
+}
 
 
 
