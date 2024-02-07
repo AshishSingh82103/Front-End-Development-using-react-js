@@ -56,8 +56,113 @@ document.write("Loop Ended <br>");
 
 //  --------------Continue Statement-------------------
 for(var i = 0; i <= 10; i++) {
+    if(i % 2 == 0) {
+        continue;
+    }
     document.write(i + "<br>")
 }
+document.write("Loop Ended <br>");
+
+
+// --------------Break Statement-------------------------
+for(var i = 0; i <= 10; i++) {
+    if(i == 5) {
+        break;
+    }
+    document.write(i + "<br>")
+}
+document.write("Loop Ended <br>");
+
+
+// --------------------------Switch Case in java-script----------------
+var i = 5;
+switch(i)
+{
+    case 1:
+    document.write("i is equals to 1");
+    break;
+
+    case 2:
+    document.write("i is equals to 2");
+    break;
+
+    case 3:
+    document.write("i is equals to 3");
+    break;
+
+    case 4:
+    document.write("i is equals to 4");
+    break;
+
+    case 5:
+    document.write("i is equals to 5");
+    break;
+
+    default:
+    document.write("i is greater than to 5");
+    break;
+}
+document.write(" <br> Out of switch");
+
+// --------------Important method of array------------------------
+var arr = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+
+// alert(Array.isArray(arr)); //true
+var flag = Array.isArray(arr);
+document.write("<h1>" + flag + "<h1/>");
+// -----------Checked  the variable is array or not => Array.isArray()---------
+var arre;
+var flag1 = Array.isArray(arre);
+document.write("<h1>" + flag1 + "<h1/>");
+
+// --------------------To print the data of array =>valueOf()------------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var arr1 = fruits.valueOf();
+document.write("<h1>" + arr1 + "<h1/>");
+
+// ------------combine elements of array into a single string and return the string =>join("")---------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var arr1 = fruits.join("!");
+document.write("<h1>" + arr1 + "<h1/>");
+
+// --------------Join serval array into one array =>concat()------------------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var vegitables = ["Potato", "Ladyfinger", "Peas", "Bringle", "Raddish"];
+var shop = fruits.concat(vegitables);
+document.write("<h1>" + shop + "<h1/>");
+
+// -------------Return the primitive value of the specified object => indexOf()-----------
+var fruits = ["Mango", "Orange", "Apple", "Pinapple", "Banana"];
+var vegitables = ["Potato", "Ladyfinger", "Peas", "Bringle", "Raddish"];
+var shop = fruits.concat(vegitables);
+var index = vegitables.indexOf("Apple");
+document.write("<h1>" + index + "<h1/>");
+
+// --------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
