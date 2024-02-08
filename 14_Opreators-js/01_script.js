@@ -161,5 +161,9 @@ var z = 17;
 console.log(z);
 document.getElementById('res').innerHTML = z;
 
+// ----------Typeof()----------------------
+var a = "Ashish";
+document.write(typeof a);
+
 
 
