@@ -22,6 +22,29 @@ function test1() {
 
     },2000)
 }
+// ------------------Clear Timeout--------------------------------
+var globalVariable;
+function start() {
+    globalVariable = setTimeout(function() {
+        document.write("<h1>WsCube Tech<h1/>")
+
+    },5000)
+}
+function stop() {
+    clearTimeout(globalVariable);
+    alert("Timeout stopped")
+}
+
+// ----------------------ClearInterval-----------------------
+var my = setInterval(count, 1000);
+var c = 0;
+function count() {
+    document.getElementById('h1').innerText = c;
+    c++;
+}
+function stop() {
+    clearInterval(my);
+}
 
 // -----------Digital clock using java script-----------------------------
 function showTime() {
