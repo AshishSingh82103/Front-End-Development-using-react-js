@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* -----------------GetAttribute and setAttribute method -----------------  */
+    /* .red {
+        color: red;
+
+    }
+    .blue {
+        color: blue;
+
+    } */
+
+    /* -----------------------Show and hide password toggle button using js--------------------------  */
+    * {
+        font-family: verdana;
+    }
+    form {
+        width: 350px;
+        margin: auto;
+    }
+    div {
+        margin: 10px;
+    }
+    label {
+        width: 200px;
+        display: block;
+        float: left;
+        font-size: 20px;
+    }
+    input {
+        display: block;
+        float: left;
+        font-size: 20px;
+    }
+    .clear {
+        clear: both;
+    }
+
+    button {
+        width: auto;
+        padding: 5px;
+        font-size: 16px;
+        border: none;
+        box-shadow: 0px 0px 2px 1px grey;
+    }
+
+
+
+
+</style>
+<body>
+   
+    <!-- <div id="test" class="red">Hello EveryOne!</div>
+    <button onclick="test()">Click</button>
+    <h1 id="res"></h1> -->
+
+    <!-- -------------------------setAttributes method----------------------- -->
+    <!-- <div id="test" class="red">Hello EveryOne!</div>
+    <button onclick="testing()">Click</button>
+    <h1 id="res"></h1> -->
+
+    <!-- -----------------------Show and hide password toggle button using js-------------------------- -->
+    <form>
+        <fieldset>
+            <legend>Login Form</legend>
+            <div>
+                <label>User Name</label>
+                <input type="text" name="">
+                <div class="clear"></div>
+            </div>
+
+            <div>
+                <label>Password</label>
+                <input type="password" name="" id="password">
+                <div class="clear"></div>
+            </div>
+
+            <div>
+                <button type="button">Login</button>
+                <button type="button" style="width: 200px;" onclick="toggle(this)">Show Password</button>
+            </div>
+        </fieldset>
+    </form>
+
+
+</body>
+<script src="./01_script.js"></script>
+</html>
