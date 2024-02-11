@@ -1,0 +1,13 @@
+/* Style input field */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style warning text */
+#text {
+    display: none;
+    color: red;
+}
