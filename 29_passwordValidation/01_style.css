@@ -1,0 +1,14 @@
+/* Style input field */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style warning message */
+#message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
